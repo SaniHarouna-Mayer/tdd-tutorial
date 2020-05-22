@@ -1,0 +1,91 @@
+sbillinge:
+  activities:
+    - type: teaching
+      name: Special Topics lecture
+      year: 2019
+      month: 8
+      other: Gave a special lecture to Barnard Environmental Science majors on the
+        materials science of nuclear fuel
+    - type: teaching
+      name: Course development
+      begin_year: 2019
+      begin_month: 9
+      end_year: 2020
+      end_month: 8
+      other: Developed a new one-semester course for Introduction to Materials Science
+    - type: research
+      name: intent to collaborate
+      year: 2021
+      other: intent to collaborate on an NSF proposal
+    - type: research
+      name: nobel research
+      other: this is the big one
+  appointments:
+    one:
+      begin_year: 2017
+      begin_month: 6
+      begin_day: 1
+      end_year: 2017
+      end_month: 6
+      end_day: 30
+      grant: fwp14
+      loading: 1.0
+      status: finalized
+      notes:
+        - ''
+    two:
+      begin_year: 2017
+      begin_month: 6
+      begin_day: 1
+      end_year: 2021
+      end_month: 6
+      end_day: 30
+      grant: fwp14
+      loading: 1.0
+      status: finalized
+      notes:
+        - ''
+    three:
+      begin_year: 2021
+      begin_month: 7
+      begin_day: 1
+      end_year: 2037
+      end_month: 8
+      end_day: 31
+      grant: fwp14
+      loading: 1.0
+      status: finalized
+      notes:
+        - ''
+    four:
+      begin_year: 2018
+      begin_month: 6
+      begin_day: 1
+      grant: fwp17
+      loading: 0.16667
+      status: finalized
+      notes:
+        - ''
+    five:
+      year: 2020
+      month: 5
+      grant: fwp17
+      loading: 0.16667
+      status: finalized
+      notes:
+        - ''
+    six:
+      year: 2020
+      grant: fwp17
+      loading: 0.16667
+      status: finalized
+      notes:
+        - ''
+    seven:
+      year: 2020
+      month: 4
+      grant: fwp17
+      loading: 0.16667
+      status: finalized
+      notes:
+        - ''
