@@ -1,8 +1,5 @@
 import yaml
-from datetime import datetime
-
-# with open('hands_on/currenty_things.yml', 'r') as db:
-#     mydby = yaml.full_load(db)
+from datetime import datetime, timedelta
 
 def is_current(dic):
     begin_year = None
@@ -40,12 +37,13 @@ def is_current(dic):
         begin_month = present_date.month
     if not begin_day:
         begin_day = present_date.day
+    future_date = datetime.now() + timedelta(days=1)
     if not end_year:
-        end_year = present_date.year
+        end_year = future_date.year
     if not end_month:
-        end_month = present_date.month
+        end_month = future_date.month
     if not end_day:
-        end_day = present_date.day
+        end_day = future_date.day
     # try:
     begin_date = datetime(begin_year, begin_month, begin_day)
     end_date = datetime(end_year, end_month, end_day)
@@ -57,6 +55,10 @@ def is_current(dic):
         return False
 
 if __name__ == "__main__":
+
+    with open('currenty_things.yml', 'r') as db:
+        mydby = yaml.full_load(db)
+
     for key0, val0 in mydby.items():
         for key1, val1 in val0.items():
             if isinstance(val1, list):
